@@ -1,0 +1,1 @@
+summon tnt 0 70 0 {fuse:40}

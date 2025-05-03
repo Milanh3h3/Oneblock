@@ -1,0 +1,1 @@
+execute unless entity @e[tag=raid_mob] run function oneblock:events/raid/pillagers/end
