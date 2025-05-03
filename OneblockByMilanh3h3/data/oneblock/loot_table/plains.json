@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:oak_sapling",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:egg",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lead",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:name_tag",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

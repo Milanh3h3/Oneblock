@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:jungle_sapling",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:melon_seeds",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cocoa_beans",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bamboo",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cookie",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:vine",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

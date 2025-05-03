@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 12,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:decorated_pot",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:breeze_rod",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wind_charge",
+            "weight": 4
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 15,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pointed_dripstone",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rooted_dirt",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:hanging_roots",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:vine",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:moss_carpet",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:big_dripleaf",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:axolotl_bucket",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

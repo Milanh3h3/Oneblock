@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 15,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:mangrove_propagule",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:vine",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lily_pad",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:slime_ball",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mud",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mangrove_roots",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fern",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
