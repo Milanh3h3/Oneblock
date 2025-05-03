@@ -38,6 +38,8 @@ schedule function oneblock:new_event 900s
 
 execute unless entity @e[type=armor_stand,tag=oneblock_text1] run summon armor_stand 0 65.7 0 {CustomName:'{"text":"Go ahead... Mine the block.","color":"gold","bold":false}', CustomNameVisible:1b, NoGravity:1b, Invisible:1b, Marker:1b,Tags:["oneblock_text1"]}
 execute unless entity @e[type=armor_stand,tag=oneblock_text2] run summon armor_stand 0 65.4 0 {CustomName:'{"text":"Its not like you are gonna die","color":"gold","bold":false}', CustomNameVisible:1b, NoGravity:1b, Invisible:1b, Marker:1b,Tags:["oneblock_text2"]}
+data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"Go ahead... Mine the block.","color":"gold","bold":false}'
+data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"Its not like you are gonna die","color":"gold","bold":false}'
 
 scoreboard objectives add countdownSeconds dummy
 scoreboard objectives add secondClock dummy

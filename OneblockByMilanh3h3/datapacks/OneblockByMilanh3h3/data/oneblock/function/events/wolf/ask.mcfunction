@@ -1,1 +1,0 @@
-tellraw @a ["Are you playing alone? ",{"text":"[Yes]","color":"green","clickEvent":{"action":"run_command","value":"/function oneblock:events/wolf/yes"}}," ",{"text":"[No]","color":"red","clickEvent":{"action":"run_command","value":"/function oneblock:events/wolf/no"}}]

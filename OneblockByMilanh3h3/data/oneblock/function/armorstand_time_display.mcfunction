@@ -1,5 +1,7 @@
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 0 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"","color":"gold","bold":false}'
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 0 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"","color":"gold","bold":false}'
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 1.. run execute unless entity @e[type=armor_stand,tag=oneblock_text1] run summon armor_stand 0 65.7 0 {CustomName:'{"text":"Go ahead... Mine the block.","color":"gold","bold":false}', CustomNameVisible:1b, NoGravity:1b, Invisible:1b, Marker:1b,Tags:["oneblock_text1"]}
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 1.. run execute unless entity @e[type=armor_stand,tag=oneblock_text2] run summon armor_stand 0 65.4 0 {CustomName:'{"text":"Its not like you are gonna die","color":"gold","bold":false}', CustomNameVisible:1b, NoGravity:1b, Invisible:1b, Marker:1b,Tags:["oneblock_text2"]}
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 0 run kill @e[tag=oneblock_text1,limit=1]
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 0 run kill @e[tag=oneblock_text2,limit=1]
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 1 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"Next phase in","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 1 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"1","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 2 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"Next phase in","color":"gold","bold":false}'
@@ -60,3 +62,6 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countd
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 29 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"29","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 30 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"Next phase in","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] countdownSeconds matches 30 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"30","color":"gold","bold":false}'
+
+
+

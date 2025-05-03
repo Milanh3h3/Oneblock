@@ -1,1 +1,1 @@
-/gamerule randomTickSpeed 3
+gamerule randomTickSpeed 3

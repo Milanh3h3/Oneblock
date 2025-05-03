@@ -30,7 +30,7 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 26 run setblock 0 64 0 minecraft:bookshelf
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 27 run setblock 0 64 0 minecraft:chiseled_bookshelf
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 28 run setblock 0 64 0 minecraft:beehive
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 29 run setblock 0 64 0 minecraft:bee_nest
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 29 run setblock 0 64 0 minecraft:bee_nest{bees:[{min_ticks_in_hive:2400,ticks_in_hive:5,entity_data:{id:"minecraft:bee"}},{min_ticks_in_hive:2400,ticks_in_hive:5,entity_data:{id:"minecraft:bee"}},{min_ticks_in_hive:2400,ticks_in_hive:5,entity_data:{id:"minecraft:bee"}}]} replace
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 30 run setblock 0 64 0 minecraft:honeycomb_block
 
 # cave
@@ -50,8 +50,8 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 
 # desert
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 43 run setblock 0 64 0 minecraft:sand
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 44 run setblock 0 64 0 minecraft:suspicious_sand
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 45 run setblock 0 64 0 minecraft:suspicious_gravel
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 44 run setblock 0 64 0 minecraft:suspicious_sand{LootTable:"archaeology/desert_pyramid"}
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 45 run setblock 0 64 0 minecraft:suspicious_gravel{LootTable:"archaeology/deser_well"}
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 46 run setblock 0 64 0 minecraft:sandstone
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 47 run setblock 0 64 0 minecraft:red_sand
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 48 run setblock 0 64 0 minecraft:red_sandstone
@@ -266,8 +266,8 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 278 run setblock 0 64 0 minecraft:dark_prismarine_slab
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 279 run setblock 0 64 0 minecraft:sea_lantern
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 280 run setblock 0 64 0 minecraft:sand
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 281 run setblock 0 64 0 minecraft:suspicious_sand
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 282 run setblock 0 64 0 minecraft:suspicious_gravel
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 281 run setblock 0 64 0 minecraft:suspicious_sand{LootTable:"archaeology/ocean_ruin_cold"}
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 282 run setblock 0 64 0 minecraft:suspicious_gravel{LootTable:"archaeology/ocean_ruin_cold"}
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 283 run setblock 0 64 0 minecraft:gravel
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 284 run setblock 0 64 0 minecraft:sniffer_egg
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 285 run setblock 0 64 0 minecraft:tube_coral_block

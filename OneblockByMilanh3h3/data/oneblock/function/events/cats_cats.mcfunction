@@ -1,7 +1,7 @@
 
 tag @e[tag=cat_target,limit=1,sort=random] add marked
 
-execute at @e[tag=marked] run summon cat ~ ~ ~
+execute at @e[tag=marked] run summon cat ~ ~5 ~
 
 kill @e[tag=marked]
 

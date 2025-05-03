@@ -134,8 +134,8 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 6 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"But dont worry, there are also funny events","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 7 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"Like this one:","color":"gold","bold":false}'
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 7 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"Have Fun!!","color":"gold","bold":false}'
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 8 run data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":"","color":"gold","bold":false}'
-execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 8 run data modify entity @e[tag=oneblock_text1,limit=1] CustomName set value '{"text":"","color":"gold","bold":false}'
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 8 run kill @e[tag=oneblock_text2,limit=1]
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 8 run kill @e[tag=oneblock_text1,limit=1]
 
 #tnt_suprise event
 execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] oneblock_mined matches 10000.. run execute store result score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] rng run random value 1..1000

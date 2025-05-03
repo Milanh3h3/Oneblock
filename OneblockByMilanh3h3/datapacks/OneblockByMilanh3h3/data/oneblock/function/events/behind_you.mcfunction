@@ -1,3 +1,0 @@
-summon armor_stand 0 64 0 {CustomName:'"unknown voice"',Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Tags:["creeper...awww_man"]}
-execute as @e[type=armor_stand,tag=creeper...awww_man, limit=1] run w @p behind you...
-schedule function oneblock:events/creeper 3s

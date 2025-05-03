@@ -72,3 +72,5 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 9500 run title @a subtitle {"text":"I suggest you bring A LOT of blocks","color":"light_purple","bold":false}
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_mined matches 10000 run title @a subtitle {"text":"Every phase at once","color":"gold","bold":false}
 
+
+function oneblock:set_phase
