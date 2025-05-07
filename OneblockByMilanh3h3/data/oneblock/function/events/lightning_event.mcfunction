@@ -14,4 +14,4 @@ spreadplayers 0 0 0.25 20 false @e[tag=lightning_target]
 scoreboard players set global oneblock_event_active 1
 
 title @a title {"text":"Lightning storm!","color":"gold","bold":true}
-title @a subtitle {"text":"7 strikes for 7... strikes","color":"yellow","bold":false}
+title @a subtitle {"text":"kachow","color":"yellow","bold":false}

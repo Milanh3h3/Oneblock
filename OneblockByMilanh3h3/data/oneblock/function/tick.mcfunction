@@ -1,6 +1,7 @@
-execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] as @e[type=item,distance=..2] unless entity @s[tag=teleported] run tp @s 0 65 0
-execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] run tag @e[type=item,distance=..2] add teleported
+execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] as @e[type=item,distance=..2] run tp @s 0 65 0
 execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] if block 0 64 0 air run function oneblock:break_block
+execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] if block 0 64 0 water run function oneblock:break_block
+execute at @e[type=armor_stand,tag=oneblock_event_manager,limit=1] if block 0 64 0 water[level=0] run function oneblock:break_block
 
 function oneblock:events/raid/update_health
 function oneblock:events/raid/undead/end_check

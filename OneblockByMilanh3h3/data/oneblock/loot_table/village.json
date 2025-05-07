@@ -58,6 +58,11 @@
           "type": "item",
           "name": "minecraft:leather_helmet",
           "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:water_bucket",
+          "weight": 3
         }
       ]
     }

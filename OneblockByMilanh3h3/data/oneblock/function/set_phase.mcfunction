@@ -1,4 +1,3 @@
-say hey
 # Phase 0 - Start / Plains
 execute as @a if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_phase matches 0 run bossbar set oneblock:phase name {"text":"Phase: Plains","color":"green","bold":true}
 
