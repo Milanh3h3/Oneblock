@@ -1,4 +1,4 @@
-schedule function oneblock:new_event 600s 
+schedule function oneblock:new_event 900s 
 execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] oneblock_mined matches ..6300 run execute store result score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] rng run random value 1..18
 execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] oneblock_mined matches 6300..9500 run execute store result score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] rng run random value 1..21
 execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] oneblock_mined matches 9500.. run execute store result score @e[type=armor_stand,tag=oneblock_event_manager,limit = 1] rng run random value 1..24
