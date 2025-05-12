@@ -27,7 +27,7 @@ bossbar set oneblock:phase max 1
 # raid events
 scoreboard objectives add mobHealth dummy
 
-#lightning event + fish event + egg_fest
+#rng for events
 scoreboard objectives add rng dummy
 
 #ambient noise
@@ -43,4 +43,7 @@ data modify entity @e[tag=oneblock_text2,limit=1] CustomName set value '{"text":
 
 scoreboard objectives add countdownSeconds dummy
 scoreboard objectives add secondClock dummy
+
+#anti afk
+scoreboard objectives add afktimer dummy
 

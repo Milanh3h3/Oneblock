@@ -1,0 +1,3 @@
+tag @a remove lotery_answered
+tellraw @a ["Choose a number"," ",{"text":"[1]","color":"green","clickEvent":{"action":"run_command","value":"/function oneblock:events/lottery/1"}}," ",{"text":"[2]","color":"gold","clickEvent":{"action":"run_command","value":"/function oneblock:events/lottery/2"}}," ",{"text":"[3]","color":"red","clickEvent":{"action":"run_command","value":"/function oneblock:events/lottery/3"}}]
+ 

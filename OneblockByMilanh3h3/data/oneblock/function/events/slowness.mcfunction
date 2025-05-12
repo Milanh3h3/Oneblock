@@ -1,0 +1,1 @@
+effect give @a slowness 100 5
