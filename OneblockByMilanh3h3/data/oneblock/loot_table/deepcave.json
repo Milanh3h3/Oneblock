@@ -46,6 +46,11 @@
         },
         {
           "type": "item",
+          "name": "minecraft:lava_bucket",
+          "weight": 2
+        },
+        {
+          "type": "item",
           "name": "minecraft:iron_pickaxe",
           "weight": 1
         }

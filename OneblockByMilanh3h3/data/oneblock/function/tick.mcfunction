@@ -24,4 +24,5 @@ function oneblock:armorstand_time_display
 
 execute as @e[type=armor_stand,tag=oneblock_event_manager,limit=1] at @s run scoreboard players add @s afktimer 1
 execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit=1] afktimer matches 12000 run execute as @a run damage @s 5 explosion
-execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit=1] afktimer matches 18000 run effect give @a poison 1 1
+execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit=1] afktimer matches 12000 run tellraw @a {"text": "Better get back to mining"}
+execute if score @e[type=armor_stand,tag=oneblock_event_manager,limit=1] afktimer matches 18000.. run effect give @a poison 1 1
