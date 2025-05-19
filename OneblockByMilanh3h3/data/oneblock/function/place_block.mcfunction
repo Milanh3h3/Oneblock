@@ -162,6 +162,7 @@ execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblo
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 474 run setblock 0 64 0 minecraft:raw_iron_block
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 475 run setblock 0 64 0 minecraft:raw_copper_block
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 476 run setblock 0 64 0 minecraft:raw_gold_block
+execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 477 run setblock 0 64 0 minecraft:obsidian
 
 #jungle           
 execute if score @e[type=armor_stand,tag=oneblock_event_manager, limit=1] oneblock_random matches 500..502 run setblock 0 64 0 minecraft:jungle_log
